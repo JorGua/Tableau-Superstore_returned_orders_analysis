@@ -1,24 +1,27 @@
 # Tableau Superstore_returned_orders_analysis
-https://public.tableau.com/shared/Q4DR2M974?:display_count=n&:origin=viz_share_link
-
-![Screenshot 2024-07-17 154718](https://github.com/user-attachments/assets/837d8252-ceb2-4de2-9017-22fb994cd2a4)
-
-![Screenshot 2024-07-17 154736](https://github.com/user-attachments/assets/5a1f2c3f-1cc9-40e5-af4e-5b8511241635)
-
-![Screenshot 2024-07-17 154748](https://github.com/user-attachments/assets/342e9a0e-65b5-4c5b-ab91-1c54ea4a0869)
-
-![Screenshot 2024-07-17 154802](https://github.com/user-attachments/assets/46e702c7-11e6-410f-9ba2-71a4948c91d0)
-
-![Screenshot 2024-07-17 154816](https://github.com/user-attachments/assets/8b010c23-bf88-41c0-b57a-49dda4484cf5)
-
-![Screenshot 2024-07-17 154832](https://github.com/user-attachments/assets/24520090-9dbe-449a-9e69-d8038939160e)
-
+## Task
+Analyze product returns to identify root causes and reduce volume of returns.
+## Data
+The data utilized for this analysis was sourced from internal order records from the years 2018 to 2021, starting on January of 2018 and ending in December of 2021. Orders data includes the order details (orderid, order date, ship mode, returns) products details (categories, subcategories, id), customer details (name, id) and demographics (regions, city, state). As well as the sales, profit, discounts and quantity of the products.
+## Dashboard
 ![Screenshot 2024-07-17 154842](https://github.com/user-attachments/assets/ae194524-d593-47b1-9e3a-ea9cfaa31b26)
+## Results
+### Products with the highest return rate:
+- Machines 35%
+- Fasteners 32%
+- chairs 30%
+### Trends:
+- Increase in return rate in August, September and December
+- High return rate in January and October
+- Customers with recurring returns 80%+
+- Higher return rate through the west states
 
-![Screenshot 2024-07-17 154854](https://github.com/user-attachments/assets/1b23a0e7-1eb7-4404-917c-9b4b52d4deef)
+## Conclusion
+- Discontinue "Machines" Subcategory: Due to low sales, profitability, and high return rates, discontinuing the "machines" subcategory is advised to optimize resources.
+- Discontinue "Tables" Subcategory: The "tables" subcategory, with negative profitability and high return rates, discontinuation is advised to improve overall performance.
+- Seasonal Product Policies: Tailor return policies for seasonal items to manage returns effectively and the volume returns of seasonal products.
+- Customer Satisfaction: Adjusting policies to better align with customer expectations and product quality can mitigate returns and improve customer satisfaction.
+- Regional Product Distribution: Adapt product distribution to regional demands to optimize sales, reduce returns, and enhance customer satisfaction
 
-![Screenshot 2024-07-17 154906](https://github.com/user-attachments/assets/24e5cff4-e39b-4d28-8c84-4c88e1ea1ac6)
 
-![Screenshot 2024-07-17 154917](https://github.com/user-attachments/assets/7e3bbb52-d01d-4021-9ea3-1a1b9624b9f5)
-
-![Screenshot 2024-07-17 154929](https://github.com/user-attachments/assets/199f12c9-0ff6-49b7-bbff-2efb5b91c6b8)
+https://public.tableau.com/shared/Q4DR2M974?:display_count=n&:origin=viz_share_link
